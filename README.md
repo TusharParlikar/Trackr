@@ -2,12 +2,12 @@
 
 > Complete task management with TODOs, notes, and roadmap planning. Real-time progress tracking in your status bar. Boost productivity with milestone tracking for developers.
 
-[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/TusharParlikar.trackr-task-manager?style=flat-square&label=VS%20Code%20Marketplace&color=blue)](https://marketplace.visualstudio.com/items?itemName=TusharParlikar.trackr-task-manager)
-[![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/TusharParlikar.trackr-task-manager?style=flat-square&color=green)](https://marketplace.visualstudio.com/items?itemName=TusharParlikar.trackr-task-manager)
-[![GitHub License](https://img.shields.io/github/license/TusharParlikar/Trackr?style=flat-square&color=yellow)](https://github.com/TusharParlikar/Trackr/blob/main/LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/TusharParlikar/Trackr?style=flat-square&color=orange)](https://github.com/TusharParlikar/Trackr)
+[![VS Code Marketplace](https://img.shields.io/badge/VS%20Code%20Marketplace-TusharParlikar.trackr--task--manager-blue?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=TusharParlikar.trackr-task-manager)
+[![Version](https://img.shields.io/badge/Version-1.0.3-green?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=TusharParlikar.trackr-task-manager)
+[![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](https://github.com/TusharParlikar/Trackr/blob/main/LICENSE)
+[![GitHub](https://img.shields.io/badge/GitHub-TusharParlikar%2FTrackr-orange?style=flat-square)](https://github.com/TusharParlikar/Trackr)
 
-**📦 Extension ID:** `TusharParlikar.trackr-task-manager` | **🔖 Version:** 1.0.2 | **📄 License:** MIT
+**📦 Extension ID:** `TusharParlikar.trackr-task-manager` | **🔖 Version:** 1.0.3 | **📄 License:** MIT
 
 ## ✨ Features
 
