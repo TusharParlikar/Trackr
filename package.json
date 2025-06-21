@@ -1,9 +1,8 @@
 {
   "name": "trackr",
   "displayName": "Trackr",
-  "description": "Complete task management with TODOs, notes, and roadmap planning. Real-time progress tracking in status bar. Boost productivity with milestone tracking for developers.",
-  "version": "1.0.0",
-  "publisher": "tushar-parlikar",
+  "description": "Complete task management with TODOs, notes, and roadmap planning. Real-time progress tracking in status bar. Boost productivity with milestone tracking for developers.",  "version": "1.0.0",
+  "publisher": "TusharParlikar",
   "author": {
     "name": "Tushar Parlikar",
     "email": "tparlikar497@gmail.com",
