@@ -1,8 +1,7 @@
-{
-  "name": "trackr-task-manager",
+{  "name": "trackr-task-manager",
   "displayName": "Trackr - Task Manager",
   "description": "Complete task management with TODOs, notes, and roadmap planning. Real-time progress tracking in status bar. Boost productivity with milestone tracking for developers.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "TusharParlikar",
   "author": {
     "name": "Tushar Parlikar",

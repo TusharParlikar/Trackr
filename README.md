@@ -1,9 +1,9 @@
-# 🎯 Trackr - Complete Task Management for VS Code
+# 🎯 Trackr - Task Manager
 
-> Boost your productivity with integrated TODOs, notes, and roadmap planning. Real-time progress tracking right in your status bar.
+> Complete task management with TODOs, notes, and roadmap planning. Real-time progress tracking in your status bar. Boost productivity with milestone tracking for developers.
 
-[![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/tushar-parlikar.trackr?color=blue&label=VS%20Code%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=tushar-parlikar.trackr)
-[![Downloads](https://img.shields.io/visual-studio-marketplace/d/tushar-parlikar.trackr)](https://marketplace.visualstudio.com/items?itemName=tushar-parlikar.trackr)
+[![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/TusharParlikar.trackr-task-manager?color=blue&label=VS%20Code%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=TusharParlikar.trackr-task-manager)
+[![Downloads](https://img.shields.io/visual-studio-marketplace/d/TusharParlikar.trackr-task-manager)](https://marketplace.visualstudio.com/items?itemName=TusharParlikar.trackr-task-manager)
 [![License](https://img.shields.io/github/license/TusharParlikar/Trackr)](https://github.com/TusharParlikar/Trackr/blob/main/LICENSE)
 
 ## ✨ Features
@@ -34,7 +34,7 @@
 
 ## 🚀 Quick Start
 
-1. **Install**: Search "Trackr" in VS Code Extensions
+1. **Install**: Search "Trackr Task Manager" in VS Code Extensions
 2. **Open**: Press `Ctrl+Shift+T` or click the Trackr icon in Activity Bar
 3. **Create**: Add your first TODO or note
 4. **Track**: Watch progress update in status bar automatically
@@ -135,17 +135,17 @@ Customize Trackr through VS Code settings:
 ### From VS Code Marketplace
 1. Open VS Code
 2. Go to Extensions (`Ctrl+Shift+X`)
-3. Search for "Trackr"
+3. Search for "Trackr Task Manager"
 4. Click "Install"
 
 ### From Command Line
 ```bash
-code --install-extension tushar-parlikar.trackr
+code --install-extension TusharParlikar.trackr-task-manager
 ```
 
 ### From VSIX Package
 ```bash
-code --install-extension trackr-1.0.0.vsix
+code --install-extension trackr-task-manager-1.0.0.vsix
 ```
 
 ## 🚀 Development
@@ -263,7 +263,7 @@ Please check the [GitHub Issues](https://github.com/TusharParlikar/Trackr/issues
 ## 📞 Support
 
 - **Issues**: [Report bugs or request features](https://github.com/TusharParlikar/Trackr/issues)
-- **Feedback**: [Rate and review on VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=tushar-parlikar.trackr)
+- **Feedback**: [Rate and review on VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=TusharParlikar.trackr-task-manager)
 - **Email**: tparlikar497@gmail.com
 
 ---
@@ -272,7 +272,7 @@ Please check the [GitHub Issues](https://github.com/TusharParlikar/Trackr/issues
 
 📝 **Found a bug or have a feature request?** [Open an issue](https://github.com/TusharParlikar/Trackr/issues)
 
-🚀 **Ready to boost your productivity?** [Install Trackr now!](https://marketplace.visualstudio.com/items?itemName=tushar-parlikar.trackr)
+🚀 **Ready to boost your productivity?** [Install Trackr now!](https://marketplace.visualstudio.com/items?itemName=TusharParlikar.trackr-task-manager)
 
 ---
 
