@@ -2,8 +2,9 @@
 
 > Complete task management with TODOs, notes, and roadmap planning. Real-time progress tracking in your status bar. Boost productivity with milestone tracking for developers.
 
-[![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/TusharParlikar.trackr-task-manager?color=blue&label=VS%20Code%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=TusharParlikar.trackr-task-manager)
-[![Downloads](https://img.shields.io/visual-studio-marketplace/d/TusharParlikar.trackr-task-manager)](https://marketplace.visualstudio.com/items?itemName=TusharParlikar.trackr-task-manager)
+[![VS Code Marketplace](https://vsmarketplacebadge.apphb.com/version/TusharParlikar.trackr-task-manager.svg)](https://marketplace.visualstudio.com/items?itemName=TusharParlikar.trackr-task-manager)
+[![Downloads](https://vsmarketplacebadge.apphb.com/downloads/TusharParlikar.trackr-task-manager.svg)](https://marketplace.visualstudio.com/items?itemName=TusharParlikar.trackr-task-manager)
+[![Installs](https://vsmarketplacebadge.apphb.com/installs/TusharParlikar.trackr-task-manager.svg)](https://marketplace.visualstudio.com/items?itemName=TusharParlikar.trackr-task-manager)
 [![License](https://img.shields.io/github/license/TusharParlikar/Trackr)](https://github.com/TusharParlikar/Trackr/blob/main/LICENSE)
 
 ## ✨ Features
