@@ -148,7 +148,7 @@ code --install-extension TusharParlikar.trackr-task-manager
 
 ### From VSIX Package
 ```bash
-code --install-extension trackr-task-manager-1.0.0.vsix
+code --install-extension trackr-task-manager-1.0.3.vsix
 ```
 
 ## 🚀 Development
@@ -253,6 +253,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [ ] Analytics and insights
 
 ### Version History
+- **v1.0.3**: Latest version with fixed badges and documentation
+  - Fixed marketplace badges to avoid rate limiting
+  - Updated all documentation consistency
+  - Improved badge reliability with static badges
+- **v1.0.2**: Badge compatibility improvements
+- **v1.0.1**: Updated extension name for marketplace uniqueness
 - **v1.0.0**: Initial release with core features
   - TODO management
   - Notes system

@@ -5,6 +5,23 @@ All notable changes to the "Trackr - Task Manager" extension will be documented 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.3] - 2025-06-22
+
+### Fixed
+- **README Badges**: Fixed marketplace badges to avoid rate limiting issues
+- **Documentation**: Updated all version references to be consistent
+- **Badge Display**: Replaced API-dependent badges with static ones for reliability
+
+### Changed
+- **Badge System**: Switched to static badges for better performance
+- **Version Display**: Consistent version numbering across all documentation
+
+## [1.0.2] - 2025-06-22
+
+### Fixed
+- **Badge Compatibility**: Updated badge service for better marketplace integration
+- **Documentation Links**: All links verified and working correctly
+
 ## [1.0.1] - 2025-06-22
 
 ### Changed
