@@ -12,6 +12,7 @@ dist/
 *.vsix
 
 # VS Code
+.vscode/
 .vscode-test/
 
 # OS generated files
