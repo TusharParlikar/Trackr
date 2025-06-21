@@ -1,0 +1,27 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bgGradient32" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#007acc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00b4d8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main background -->
+  <rect width="32" height="32" rx="6" fill="url(#bgGradient32)"/>
+  
+  <!-- Progress circle background -->
+  <circle cx="16" cy="16" r="9.5" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+  
+  <!-- Progress arc -->
+  <circle cx="16" cy="16" r="9.5" fill="none" stroke="white" stroke-width="1.5" 
+          stroke-dasharray="45 60" stroke-dashoffset="0" 
+          transform="rotate(-90 16 16)" stroke-linecap="round"/>
+  
+  <!-- Center background -->
+  <rect x="12" y="12" width="8" height="8" rx="1.5" fill="white"/>
+  
+  <!-- T letter -->
+  <text x="16" y="18" font-family="Arial, sans-serif" font-size="5" font-weight="bold" 
+        text-anchor="middle" fill="#007acc">T</text>
+</svg>

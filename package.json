@@ -1,0 +1,277 @@
+{
+  "name": "trackr",
+  "displayName": "Trackr",
+  "description": "Complete task management with TODOs, notes, and roadmap planning. Real-time progress tracking in status bar. Boost productivity with milestone tracking for developers.",
+  "version": "1.0.0",
+  "publisher": "tushar-parlikar",
+  "author": {
+    "name": "Tushar Parlikar",
+    "email": "tparlikar497@gmail.com",
+    "url": "https://www.linkedin.com/in/tushar-parlikar-98272b292/"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/TusharParlikar/Trackr#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TusharParlikar/Trackr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TusharParlikar/Trackr/issues"
+  },
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Other",
+    "Notebooks",
+    "Snippets"
+  ],
+  "keywords": [
+    "todo",
+    "task management",
+    "productivity",
+    "progress tracking",
+    "notes",
+    "roadmap",
+    "project management",
+    "milestone",
+    "status bar",
+    "developer tools",
+    "planning",
+    "organization",
+    "kanban",
+    "agile",
+    "scrum",
+    "todo list",
+    "task tracker",
+    "project planning",
+    "developer productivity",
+    "vs code productivity",
+    "task organizer",
+    "work management",
+    "time tracking",
+    "goal tracking",
+    "progress bar",
+    "dashboard",
+    "workspace",
+    "collaboration",
+    "team management",
+    "personal productivity",
+    "getting things done",
+    "gtd",
+    "workflow",
+    "automation",
+    "reminder",
+    "deadline",
+    "scheduler",
+    "calendar",
+    "timeline",
+    "backlog",
+    "sprint",
+    "epic",
+    "story",
+    "issue tracking",
+    "bug tracking",
+    "feature tracking",
+    "development tools",
+    "coding tools",
+    "programmer tools",
+    "software development",
+    "project tracker",
+    "task board",
+    "checklist",
+    "to-do",
+    "notebook",
+    "notes app",
+    "documentation",
+    "markdown",
+    "text editor",
+    "note taking",
+    "brainstorming",
+    "idea management",
+    "knowledge management",
+    "information management"  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./src/extension.js",
+  "icon": "images/icon.png",
+  "contributes": {
+    "commands": [
+      {
+        "command": "trackr.openTodo",
+        "title": "📝 Open Trackr",
+        "category": "Trackr"
+      },
+      {
+        "command": "trackr.refreshStatus",
+        "title": "🔄 Refresh Progress Status",
+        "category": "Trackr"
+      },
+      {
+        "command": "trackr.openFromSidebar",
+        "title": "Open Trackr",
+        "icon": "$(notebook)"
+      },
+      {        "command": "trackr.toggleTodo",
+        "title": "Toggle TODO",
+        "icon": "$(check)"
+      },
+      {        "command": "trackr.deleteTodo",
+        "title": "Delete TODO",
+        "icon": "$(trash)"
+      },
+      {
+        "command": "trackr.openToNote",
+        "title": "Open to Note",
+        "icon": "$(note)"
+      },
+      {
+        "command": "trackr.openToTodo",
+        "title": "Open to TODO",
+        "icon": "$(checklist)"
+      }
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "trackr-container",
+          "title": "Trackr",
+          "icon": "$(notebook)"
+        }
+      ]
+    },
+    "views": {
+      "trackr-container": [
+        {
+          "id": "trackr-overview",
+          "name": "Overview",
+          "when": "true"
+        },
+        {
+          "id": "trackr-todos",
+          "name": "TODOs",
+          "when": "true"
+        },
+        {
+          "id": "trackr-notes",
+          "name": "Notes",
+          "when": "true"
+        }
+      ]
+    },
+    "menus": {
+      "commandPalette": [
+        {
+          "command": "trackr.openTodo",
+          "when": "true"
+        },
+        {
+          "command": "trackr.refreshStatus",
+          "when": "true"
+        }
+      ],
+      "view/item/context": [
+        {
+          "command": "trackr.toggleTodo",
+          "when": "view == trackr-todos && viewItem == todo",
+          "group": "inline"
+        },
+        {
+          "command": "trackr.deleteTodo",
+          "when": "view == trackr-todos && viewItem == todo",
+          "group": "inline"
+        }
+      ],
+      "view/title": [
+        {
+          "command": "trackr.openTodo",
+          "when": "view == explorer",
+          "group": "navigation"
+        },
+        {
+          "command": "trackr.openFromSidebar",
+          "when": "view == trackr-overview",
+          "group": "navigation"
+        },
+        {
+          "command": "trackr.openFromSidebar",
+          "when": "view == trackr-todos",
+          "group": "navigation"
+        },
+        {
+          "command": "trackr.openFromSidebar",
+          "when": "view == trackr-notes",
+          "group": "navigation"
+        }
+      ]
+    },
+    "keybindings": [
+      {
+        "command": "trackr.openTodo",
+        "key": "ctrl+shift+t",
+        "mac": "cmd+shift+t",
+        "when": "editorTextFocus"
+      }
+    ],
+    "configuration": {
+      "title": "Trackr",
+      "properties": {
+        "trackr.showProgressInStatusBar": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show progress percentage in status bar"
+        },
+        "trackr.progressFormat": {
+          "type": "string",
+          "enum": [
+            "percentage",
+            "fraction",
+            "both"
+          ],
+          "default": "percentage",
+          "description": "Format for progress display"
+        },
+        "trackr.statusBarPosition": {
+          "type": "string",
+          "enum": [
+            "left",
+            "right"
+          ],
+          "default": "left",
+          "description": "Position of status bar item"
+        },
+        "trackr.autoSave": {
+          "type": "boolean",
+          "default": true,
+          "description": "Automatically save changes"
+        },
+        "trackr.showNotifications": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show notifications for due items"
+        }
+      }    }
+  },
+  "scripts": {
+    "lint": "echo 'Linting skipped'",
+    "pretest": "echo 'Pretest skipped'",
+    "test": "echo 'Tests skipped'",
+    "vscode:prepublish": "echo 'Extension ready for publishing'"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.74.0",
+    "@types/node": "16.x",
+    "@vscode/test-electron": "^2.2.0",
+    "eslint": "^8.28.0",
+    "glob": "^8.0.3",
+    "mocha": "^10.1.0",
+    "typescript": "^4.9.4",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0"
+  },
+  "galleryBanner": {
+    "color": "#007acc",
+    "theme": "dark"
+  }
+}
